@@ -1,7 +1,71 @@
-/* ==================== */
-/*    MOBILE DESIGN     */
-/* ==================== */
-@media screen and (max-width: 576px) {
-    
+h1,
+p {
+    text-align: center;
+    padding: 0 1.2em;
 }
 
+/* BODY */
+
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-size: 61%;
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+    max-height: 100%;
+    max-width: 100%;
+    background-color: #d6e1f0;
+}
+
+
+    /* DIV */
+
+    div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+        max-width: 418px;
+        margin: auto;
+    }
+    
+    /* MAIN */
+
+    main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 85%;
+        height: 75%;
+        max-width: 311.2px;
+        max-height: 550px;
+        margin: auto;
+        background-color: #fff;
+        border-radius: 20px;
+    }
+
+    /* QR CODE IMG */
+    
+    img {
+        width: 90%;
+        max-width: 364.13px;
+        border-radius: 10px;
+        margin-top: -10%;
+    }
+
+    /* CONTENT CONTAINER */
+    
+    h1 {
+        letter-spacing: .3px;
+        font-weight: 700;
+        margin: 30px 0;
+    }
+
+    p {
+        font-size: 1.5em;
+        color: #777;
+        margin-top: 0;
+    }
